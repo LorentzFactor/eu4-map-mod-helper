@@ -71,7 +71,8 @@ public class PaintingTool extends JPanel implements MouseListener
 	}
 
 	@Override
-	public void mouseReleased(MouseEvent arg0) {
+	public void mouseReleased(MouseEvent arg0) 
+	{
 		// TODO Auto-generated method stub
 		pressedDown = false;
 	}
